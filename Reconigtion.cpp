@@ -24,6 +24,25 @@ begin
   for a := 1 to x do
     begin
     //Create Function
-    
-  readln;
+    write(nama[a]:8);
+    write(jumlah[a]:15);
+    write(harga[a]:20);
+    total := jumlah[a]*harga[a];
+    writeln(total:13);
+    total2 := total2+jumlah[a]*harga[a]
+    end;
+
+    writeln(' ');
+    writeln('Total belanja : ',total2);
+    writeln(' ');
+    write('Jumlah uang yg diserahkan: ');readln(jmluang);
+    writeln('Jumlah bayar             : ',total2);
+
+    kembali := jmluang-total2;
+
+    writeln('Kembali                  : ',kembali);
+    writeln(' ');
+    write('Terima Kasih');
+  
+readln;
 end.
