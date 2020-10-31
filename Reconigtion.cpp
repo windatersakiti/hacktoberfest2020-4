@@ -7,7 +7,7 @@ harga, jumlah : array[1..100] of integer;
 
 begin
   clrscr;
-  write('Masukkan jumlah item yang akan dibeli : ');readln(x);
+  write('Masukkan jumlah produk yang akan dibeli : ');readln(x);
 
   for a := 1 to x do
     begin
@@ -43,6 +43,7 @@ begin
     writeln('Kembali                  : ',kembali);
     writeln(' ');
     write('Terima Kasih');
+     write('Selamat belanja kembali');
   
 readln;
 end.
